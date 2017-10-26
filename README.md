@@ -22,7 +22,7 @@ Here is a description for the main functions.
   - `ylim`: The range of second variable. 
   - `CL_lev`: The levels for contours lines. If not specify, it will automatically choose 0.05, 0.10, ..., 0.95 as the levels.
   - `n_res`: The resolution of grids. 201 means a $201\times201$ matrix over the range of `xlim` and `ylim`.
-  - `n_tg`: The levels for evaluating the mass-volume curve and Betti number curve.
+  - `n_tg`: The levels for evaluating the mass-volume curve, Betti number, and persistence curves.
 - Outputs:
   - The density ranking analysis result; a list consisting of
     - `h`: The smoothing bandwidth. 
@@ -33,8 +33,9 @@ Here is a description for the main functions.
     - `CL_lev`: The contour levels. 
     - `CL`: A list of contour lines corresponding to `CL_lev`.
     - `persistent`: The persistent diagram of density ranking.
-    
-    
-    
+    - `clevel`: The levels where the mass-volume, Betti number, and persistence curves are evaluated.
+    - `Mcurve`: The value of the mass-volume curve evaluated at `clevel`.
+    - `Bcurve`: The value of the Betti number curve evaluated at `clevel`.
+    - `Pcurve`: The value of the persistence curve evaluated at `clevel`.
     
     
