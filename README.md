@@ -13,7 +13,7 @@ Note that you need to download the dataset from https://archive.ics.uci.edu/ml/d
 
 
 ## DR.R
-Here is a description for the main functions.
+Here is a description for the main function.
 
 ### DR
 `DR = function(data, h, kernel="Gaussian", xlim=NULL, ylim=NULL, CL_lev = NULL, n_res=201, n_tg=100, ...)`
