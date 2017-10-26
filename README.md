@@ -1,7 +1,9 @@
 # Density Ranking 
 Analyzing data using density ranking.
 
-- Paper reference: Chen, Yen-Chi, and Adrian Dobra. "Measuring Human Activity Spaces With Density Ranking Based on GPS Data." arXiv preprint [arXiv:1708.05017](https://arxiv.org/abs/1708.05017) (2017).
+- Paper reference: 
+  - Chen, Yen-Chi, and Adrian Dobra. "Measuring Human Activity Spaces With Density Ranking Based on GPS Data." arXiv preprint [arXiv:1708.05017](https://arxiv.org/abs/1708.05017) (2017).
+  - Chen, Yen-Chi. "Generalized Cluster Trees and Singular Measures." arXiv preprint [arXiv:1611.02762](https://arxiv.org/abs/1611.02762) (2016).
 - Maintianer: yenchic@uw.edu
 - `DR.R`: the main script for running the program.
 - `DR_demo.R`: an example for applying `DR` method to a dataset.
