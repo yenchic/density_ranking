@@ -11,7 +11,7 @@ Analyzing data using density ranking.
 ## DR.R
 Here is a description for the main functions.
 
-### fms
+### DR
 `DR = function(data, h, kernel="Gaussian", xlim=NULL, ylim=NULL, CL_lev = NULL, n_res=201, n_tg=100, ...)`
 - Density ranking analysis for 2D dataset (GPS).  
 - Inputs:
