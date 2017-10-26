@@ -6,6 +6,8 @@ Analyzing data using density ranking.
 - `DR.R`: the main script for running the program.
 - `DR_demo.R`: an example for applying `DR` method to a dataset.
 
+To try this script, please execute the programs in `DR_demo.R`. 
+Note that you need to download the dataset from https://archive.ics.uci.edu/ml/datasets/GPS+Trajectories before implementing `DR_demo.R`.  
 
 
 ## DR.R
