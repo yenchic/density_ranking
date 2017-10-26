@@ -17,7 +17,7 @@ Here is a description for the main function.
 
 ### DR
 `DR = function(data, h, kernel="Gaussian", xlim=NULL, ylim=NULL, CL_lev = NULL, n_res=201, n_tg=100, ...)`
-- Density ranking analysis for 2D dataset (GPS).  
+- Density ranking analysis for 2D datasets (GPS).  
 - Inputs:
   - `data`: Input 2D data matrix.
   - `h`: Smoothing parameter.
